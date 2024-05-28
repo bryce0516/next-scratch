@@ -7,7 +7,7 @@ export default function ReviewDetails({
   params,
 }: {
   params: {
-    id: string;
+    productId: string;
     reviewId: string;
   };
 }) {
@@ -19,7 +19,7 @@ export default function ReviewDetails({
   }
   return (
     <>
-      <h1>Product Id : {params.id}</h1>
+      <h1>Product Id : {params.productId}</h1>
       <h1>Review Id : {params.reviewId}</h1>
     </>
   );
